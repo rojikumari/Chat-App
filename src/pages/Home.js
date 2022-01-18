@@ -134,7 +134,7 @@ const Home = () => {
             />
           </>
         ) : (
-          <h3 className="no_conv">Select a user to start conversation</h3>
+          <h3 className="no_conv">Start Conversation</h3>
         )}
       </div>
     </div>
