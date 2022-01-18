@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 import {getStorage} from "firebase/storage"
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  databaseURL : process.env.REACT_APP_DATABASE_URL,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyDU8dTeu8A-UXutk45fXDo7P5oWeHlXNBU" ,
+  authDomain: "chat-exchange-app.firebaseapp.com" ,
+  databaseURL : "http://chat-exchange-app.firebase.io.com",
+  projectId: "chat-exchange-app",
+  storageBucket: "chat-exchange-app.appspot.com" ,
+  messagingSenderId:"207496549430",
+  appId:"1:207496549430:web:932e0c84018626b332b497" ,
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
